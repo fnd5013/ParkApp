@@ -1,1 +1,2 @@
 # ParkApp
+The project is currently full of test files to make sure everyone can clone and create pull requests and such. Make sure you fork off of the main repo before you clone. This will help with when we bring the code back together to ensure that errors don't form due to two people code clashing. If you've never done a fork before you can just click fork in the top right corner and choose your name. Then when you go into Netbeans there is a clone option and you can clone your individual fork's link.
