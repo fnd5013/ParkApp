@@ -14,6 +14,8 @@ public class RestaurantMenuUI extends javax.swing.JFrame {
     private Restaurants restuarant;
     /**
      * Creates new form RestaurantMenuUI
+     * @param restCntrl references the Restaurant Controller class
+     * @param restaurant references the Restaurants class
      */
     public RestaurantMenuUI(RestaurantController restCntrl, Restaurants restaurant) {
         this.restCntrl = restCntrl;
@@ -21,6 +23,10 @@ public class RestaurantMenuUI extends javax.swing.JFrame {
         initComponents();
     }
     
+    /**
+     * gets the order total from the user's entry
+     * @return total which represents the order amount
+     */
     public double getOrderTotal() {
         double total = Double.parseDouble(menuItemPrice1.getText()) * (Integer)menuItemAmt1.getValue()
                 + Double.parseDouble(menuItemPrice2.getText()) * (Integer)menuItemAmt2.getValue()
