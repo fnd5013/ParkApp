@@ -20,7 +20,7 @@ public class RestaurantController implements ActionListener {
     
     /**
      * Constructor for restaurant menu
-     * @param navCntrl 
+     * @param navCntrl reference to the Navigation Controller class
      */
     public RestaurantController(NavigationController navCntrl) {
         this.navCntrl = navCntrl;
@@ -32,7 +32,7 @@ public class RestaurantController implements ActionListener {
     
     /**
      * Action Events for buttons
-     * @param e 
+     * @param e representing an Action Event
      */
     @Override
     public void actionPerformed(ActionEvent e) {

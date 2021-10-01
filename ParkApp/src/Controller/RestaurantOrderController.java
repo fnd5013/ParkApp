@@ -18,7 +18,7 @@ public class RestaurantOrderController implements ActionListener{
     
     /**
      * Constructor for the restaurant ordering
-     * @param restCntrl 
+     * @param restCntrl references the Restaurant Controller class
      */
     public RestaurantOrderController(RestaurantController restCntrl) {
         this.navCntrl = navCntrl;
@@ -31,7 +31,7 @@ public class RestaurantOrderController implements ActionListener{
     
     /**
      * Action Events for buttons
-     * @param e 
+     * @param e represents an Action Event
      */
     @Override
     public void actionPerformed(ActionEvent e) {

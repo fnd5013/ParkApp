@@ -14,12 +14,17 @@ public class RestaurantOrderUI extends javax.swing.JFrame {
 
     /**
      * Creates new form RestaurantOrderUI
+     * @param restCntrl references the Restaurant Order Controller class
+     * @param restaurant references the Restaurant class
      */
     public RestaurantOrderUI(RestaurantOrderController restCntrl, Restaurants restaurant) {
         initComponents();
         setOrderTotal();
     }
     
+    /**
+     * sets the order total text box with the order total value
+     */
     public void setOrderTotal() {
         orderTotalAmt.setText(String.valueOf(menuUI.getOrderTotal()));
     }
