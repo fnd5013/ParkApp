@@ -192,7 +192,7 @@ public class purchaseTickets extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    private javax.swing.JButton myTicketsBuy;
-    private javax.swing.JButton submitBuyTickets;
+    public javax.swing.JButton myTicketsBuy;
+    public javax.swing.JButton submitBuyTickets;
     // End of variables declaration//GEN-END:variables
 }

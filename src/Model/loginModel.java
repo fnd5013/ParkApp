@@ -9,6 +9,6 @@ package Model;
  *
  * @author hayde
  */
-public class buyModel {
+public class loginModel {
     
 }
