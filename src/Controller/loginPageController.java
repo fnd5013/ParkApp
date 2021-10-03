@@ -12,7 +12,7 @@ import View.loginPage;
  *
  * @author hayde
  */
-public class loginPageController {
+public class loginPageController {//this controls the login gui
     private loginPage loginPage;
     private loginPageController loginCntrl;
 

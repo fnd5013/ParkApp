@@ -9,6 +9,16 @@ package Model;
  *
  * @author hayde
  */
-public class viewModel {
+public class viewModel {//this will handle pulling up tickets from the database based on login information
     
+    public User getPurchasedTickets(){//will get purchased tickets
+            
+        
+    }
+    
+    public Tickets displayPurchasedTickets(){//sends info to controller to display purchased tickets
+        
+    }
+
+
 }

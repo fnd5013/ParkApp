@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
  *
  * @author hayde
  */
-public class purchaseTicketsController implements ActionListener {
+public class purchaseTicketsController implements ActionListener {//this will control the purchase gui
     private purchaseTickets purchaseTix;
     private viewTicketsController viewTix;
 
