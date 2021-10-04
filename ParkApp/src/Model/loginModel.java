@@ -11,6 +11,7 @@ public class loginModel {
      * @return a variable of User type
      */
      public User verifyUser(){
+         return null;
             
         
     }
@@ -20,6 +21,7 @@ public class loginModel {
       * @return a variable of User type
       */
      public User createUser(){
+         return null;
      }
      
 }
