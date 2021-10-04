@@ -7,6 +7,9 @@ package Model;
 /**
  *
  * @author meky
+ * 
+ * Activity class for park administrators to create 
+ * park activity objects 
  */
 public class Activity {
     private String name;
@@ -20,38 +23,75 @@ public class Activity {
         this.description = description;
         this.timeslot = timeslot;
     }
+    
+  /**
+   * 
+   * @return get the name of a park activity 
+   */
 
     public String getName() {
         return name;
     }
 
+ /**
+  * 
+  * @param edits the name of the park activity 
+  */
     public void setName(String name) {
         this.name = name;
     }
-
+ /**
+   * 
+   * @return get the capacity of a park activity 
+   */
     public int getCapacity() {
         return capacity;
     }
 
+ /**
+  * 
+  * @param edits the capacity of the park activity 
+  */
     public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
 
+ /**
+   * 
+   * @return get the description of a park activity 
+   */
     public String getDescription() {
         return description;
     }
-
+    
+ /**
+  * 
+  * @param edits the description of the park activity 
+  */
     public void setDescription(String description) {
         this.description = description;
     }
 
+ /**
+   * 
+   * @return get the timeslot of a park activity 
+   */
     public Timeslot getTimeslot() {
         return timeslot;
     }
-
+    
+/**
+  * 
+  * @param edits the timeslot of the park activity 
+  */
     public void setTimeslot(Timeslot timeslot) {
         this.timeslot = timeslot;
     }
+    
+   /**
+     * 
+     * @return string format of the activity  
+     */
 
     @Override
     public String toString() {
