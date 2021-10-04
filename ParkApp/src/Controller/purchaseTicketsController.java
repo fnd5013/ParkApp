@@ -59,7 +59,7 @@ public class purchaseTicketsController implements ActionListener {//this will co
     }
 
     /**
-     * @param args the command line arguments
+     * @param e the command line arguments
      */
     @Override
     public void actionPerformed(ActionEvent e){

@@ -21,7 +21,7 @@ public class Timeslot {
     
 
     /**
-     * @
+     * 
      * @return start time of the timeslot 
      */
 
@@ -40,7 +40,7 @@ public class Timeslot {
     }
     
      /**
-     * @
+     * 
      * @return end time of the timeslot 
      */
 

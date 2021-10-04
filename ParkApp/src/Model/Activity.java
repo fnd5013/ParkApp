@@ -35,7 +35,7 @@ public class Activity {
 
  /**
   * 
-  * @param edits the name of the park activity 
+  * @param name the name of the park activity 
   */
     public void setName(String name) {
         this.name = name;
@@ -50,7 +50,7 @@ public class Activity {
 
  /**
   * 
-  * @param edits the capacity of the park activity 
+  * @param capacity the capacity of the park activity 
   */
     public void setCapacity(int capacity) {
         this.capacity = capacity;
@@ -66,7 +66,7 @@ public class Activity {
     
  /**
   * 
-  * @param edits the description of the park activity 
+  * @param description the description of the park activity 
   */
     public void setDescription(String description) {
         this.description = description;
@@ -82,7 +82,7 @@ public class Activity {
     
 /**
   * 
-  * @param edits the timeslot of the park activity 
+  * @param timeslot the timeslot of the park activity 
   */
     public void setTimeslot(Timeslot timeslot) {
         this.timeslot = timeslot;
