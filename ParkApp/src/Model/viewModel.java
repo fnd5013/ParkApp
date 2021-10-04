@@ -11,6 +11,7 @@ public class viewModel {
      * @return a variable of User type
      */
     public User getPurchasedTickets(){
+        return null;
             
         
     }
@@ -19,7 +20,8 @@ public class viewModel {
      * sends info to controller to display purchased tickets
      * @return a variable of Tickets type
      */
-    public Tickets displayPurchasedTickets(){
+    public Ticket displayPurchasedTickets(){
+        return null;
         
     }
 

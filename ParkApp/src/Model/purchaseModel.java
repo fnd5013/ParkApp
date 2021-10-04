@@ -19,6 +19,7 @@ public class purchaseModel {
      * @return a variable of Ticket type
      */
     public Ticket addTicket(){
+        return null;
         
     }
 
