@@ -24,7 +24,7 @@ public class Reservation {
      * @param activityList an ArrayList of the available Activities
      * @param activity a String with the name of the chosen activity
      * @param numGuests an integer of the number of guests for the reservation
-     * @param time 
+     * @param time a TimeSlot object with the time of the reservation
      * @param date a String containing the date of the reservation
      */
     public Reservation(ArrayList<Activity> activityList, String activity, int numGuests, Timeslot time, String date) {
