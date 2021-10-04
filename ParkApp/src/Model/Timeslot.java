@@ -7,6 +7,8 @@ package Model;
 /**
  *
  * @author meky
+ * 
+ * Used for administrators to add timeslots to an activity 
  */
 public class Timeslot {
     private String startTime;
@@ -16,22 +18,52 @@ public class Timeslot {
         this.startTime = startTime;
         this.endTime = endTime;
     }
+    
+
+    /**
+     * @
+     * @return start time of the timeslot 
+     */
 
     public String getStartTime() {
         return startTime;
     }
+    
+    /**
+     * 
+     * @param startTime 
+     * edits the start time of an activity 
+     */
 
     public void setStartTime(String startTime) {
         this.startTime = startTime;
     }
+    
+     /**
+     * @
+     * @return end time of the timeslot 
+     */
 
     public String getEndTime() {
         return endTime;
     }
+    
+     
+    /**
+     * 
+     * @param endTime 
+     * edits the end time of an activity 
+     */
+
 
     public void setEndTime(String endTime) {
         this.endTime = endTime;
     }
+    
+    /**
+     * 
+     * @return string format of the timeslot 
+     */
 
     @Override
     public String toString() {
