@@ -5,10 +5,10 @@ import View.purchaseTickets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 /**
- *
+ * this will control the purchase gui
  * @author hayde
  */
-public class purchaseTicketsController implements ActionListener {//this will control the purchase gui
+public class purchaseTicketsController implements ActionListener {
     private purchaseTickets purchaseTix;
     private viewTicketsController viewTix;
     private NavigationController navCntrl;
@@ -58,6 +58,7 @@ public class purchaseTicketsController implements ActionListener {//this will co
     }
 
     /**
+     * Action Events for buttons
      * @param e the command line arguments
      */
     @Override
