@@ -15,6 +15,11 @@ public class viewTicketsController implements ActionListener{//will grab tickets
     private purchaseTicketsController purchaseTicketsCntrl;
     private viewTickets viewTicketsUI;
     
+    /**
+     * Constructor for the view tickets controller class
+     * @param navCntrl instance of the navigation controller
+     * @param purchaseTicketsCntrl instance of the purchase tickets controller
+     */
     public viewTicketsController(NavigationController navCntrl, purchaseTicketsController purchaseTicketsCntrl) {
         this.navCntrl = navCntrl;
         this.purchaseTicketsCntrl = purchaseTicketsCntrl;

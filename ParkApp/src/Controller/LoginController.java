@@ -16,7 +16,6 @@ public class LoginController implements ActionListener{
 
     /**
      * Constructor for login controller
-     * @param navCntrl instance of Navigation Controller
      */
     public LoginController() {
         loginUI = new loginPage(this);
