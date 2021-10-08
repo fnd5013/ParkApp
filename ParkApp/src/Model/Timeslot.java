@@ -14,6 +14,11 @@ public class Timeslot {
     private String startTime;
     private String endTime;
 
+    /**
+     * constructor for time slot
+     * @param startTime string for start time
+     * @param endTime string for end time
+     */
     public Timeslot(String startTime, String endTime) {
         this.startTime = startTime;
         this.endTime = endTime;

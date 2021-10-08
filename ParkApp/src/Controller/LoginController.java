@@ -1,20 +1,40 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Controller;
 
+import View.NavigationUI;
+import View.loginPage;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
  *
  * @author fdadebo
  */
-public abstract class LoginController implements ActionListener{
-    private LoginController loginUI;
-    
+public class LoginController implements ActionListener{
+    private NavigationController navCntrl;
+    private loginPage loginUI;
+    private LoginController loginCntrl;
+
+    /**
+     * Constructor for login controller
+     * @param navCntrl instance of Navigation Controller
+     */
     public LoginController() {
-    // loginUI = new LoginController(this);
+        loginUI = new loginPage(this);
+        loginUI.loginButton.addActionListener(this);
+        loginUI.setVisible(true);
      };
+    
+    /**
+     * Action Events for buttons
+     * @param e representing an Action Event
+     */
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        Object obj = e.getSource();
+        if(obj == loginUI.loginButton)
+        {
+            navCntrl = new NavigationController();
+            loginUI.setVisible(false);
+        }
+    }
 }

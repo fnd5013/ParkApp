@@ -11,11 +11,7 @@ import java.awt.event.ActionListener;
 public class purchaseTicketsController implements ActionListener {//this will control the purchase gui
     private purchaseTickets purchaseTix;
     private viewTicketsController viewTix;
-
-    public static void main(String[] args){
-        viewTicketsController viewTicketsCntrl = new viewTicketsController();
-        
-    }
+    private NavigationController navCntrl;
 
     /**
      * getter for purchased tickets
@@ -52,8 +48,11 @@ public class purchaseTicketsController implements ActionListener {//this will co
     /**
      * create the purchase tickets gui
      */
-    public purchaseTicketsController() {
+    public purchaseTicketsController(NavigationController navCntrl) {
+        this.navCntrl = navCntrl;
+        purchaseTix = new purchaseTickets();
         purchaseTix.myTicketsBuy.addActionListener(this);
+        purchaseTix.submitBuyTickets.addActionListener(this);
         purchaseTix.setVisible(true);
         
     }
@@ -63,7 +62,17 @@ public class purchaseTicketsController implements ActionListener {//this will co
      */
     @Override
     public void actionPerformed(ActionEvent e){
-        
+        Object obj = e.getSource();
+        if(obj == purchaseTix.myTicketsBuy)
+        {
+            viewTix = new viewTicketsController(navCntrl, this);
+            purchaseTix.setVisible(false);
+        }
+        if(obj == purchaseTix.submitBuyTickets)
+        {
+            navCntrl = new NavigationController();
+            purchaseTix.setVisible(false);
+        }
         
     }
 
