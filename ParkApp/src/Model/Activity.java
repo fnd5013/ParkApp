@@ -17,6 +17,13 @@ public class Activity {
     private String description;
     private Timeslot timeslot;
 
+    /**
+     * constructor for activity class
+     * @param name name of activity
+     * @param capacity capacity of activity
+     * @param description description of activity
+     * @param timeslot time slot of activity
+     */
     public Activity(String name, int capacity, String description, Timeslot timeslot) {
         this.name = name;
         this.capacity = capacity;
