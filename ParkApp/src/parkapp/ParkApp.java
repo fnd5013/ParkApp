@@ -1,6 +1,6 @@
 package parkapp;
 
-import Controller.NavigationController;
+import Controller.LoginController;
 
 /**
  *
@@ -12,7 +12,7 @@ public class ParkApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       NavigationController navCntrl = new NavigationController();
+       LoginController loginCntrl = new LoginController();
     }
     
 }

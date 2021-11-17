@@ -134,7 +134,7 @@ public class viewTickets extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JButton printTicketsButton;
-    private javax.swing.JButton purchaseTicketsButton;
+    public javax.swing.JButton printTicketsButton;
+    public javax.swing.JButton purchaseTicketsButton;
     // End of variables declaration//GEN-END:variables
 }
